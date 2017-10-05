@@ -7,7 +7,7 @@ if $PROGRAM_NAME == __FILE__
 
   # Читаем пользовательский ввод
   input = gets
-  puts 'Ввели', input
+  p 'Ввели', input
 
   # Чтобы убрать ненужные \n или \r\n, вызываем chomp
   number = input.chomp.to_s.to_i
