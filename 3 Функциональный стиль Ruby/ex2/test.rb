@@ -7,14 +7,12 @@ class SquareTest < MiniTest::Unit::TestCase
   # Called before every test method runs. Can be used
   # to set up fixture information.
   def setup
-    # Do nothing
   end
 
   # Called after every test method runs. Can be used to tear
   # down fixture information.
 
   def teardown
-    # Do nothing
   end
 
   def test_ok
@@ -23,7 +21,6 @@ class SquareTest < MiniTest::Unit::TestCase
     assert_equal 81, square(9)
   end
 
-  # Fake test
   def test_fail
     # Проверяем, что метод выбросит исключение, если передать ему не то
     assert_raises NoMethodError do
