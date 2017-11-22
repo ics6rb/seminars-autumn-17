@@ -7,3 +7,5 @@
         app/controllers/xml_controller.rb - вся логика работы.
         config/routes.rb - оставили только корневой маршрут.
         test/controllers/xml_controller_test.rb - протестировали формат возвращаемого документа.
+        
+        .rubocop.yml - некоторые проверки рубокопа можно отключать или изменять!
