@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+<objects type="array">
+  <object>
+    <elem type="integer">0</elem>
+    <binary>0</binary>
+  </object>
+  <object>
+    <elem type="integer">1</elem>
+    <binary>1</binary>
+  </object>
+  <object>
+    <elem type="integer">3</elem>
+    <binary>11</binary>
+  </object>
+  <object>
+    <elem type="integer">5</elem>
+    <binary>101</binary>
+  </object>
+  <object>
+    <elem type="integer">7</elem>
+    <binary>111</binary>
+  </object>
+  <object>
+    <elem type="integer">9</elem>
+    <binary>1001</binary>
+  </object>
+  <object>
+    <elem type="integer">15</elem>
+    <binary>1111</binary>
+  </object>
+  <object>
+    <elem type="integer">17</elem>
+    <binary>10001</binary>
+  </object>
+  <object>
+    <elem type="integer">21</elem>
+    <binary>10101</binary>
+  </object>
+  <object>
+    <elem type="integer">27</elem>
+    <binary>11011</binary>
+  </object>
+  <object>
+    <elem type="integer">31</elem>
+    <binary>11111</binary>
+  </object>
+  <object>
+    <elem type="integer">33</elem>
+    <binary>100001</binary>
+  </object>
+  <object>
+    <elem type="integer">45</elem>
+    <binary>101101</binary>
+  </object>
+  <object>
+    <elem type="integer">51</elem>
+    <binary>110011</binary>
+  </object>
+  <object>
+    <elem type="integer">63</elem>
+    <binary>111111</binary>
+  </object>
+  <object>
+    <elem type="integer">65</elem>
+    <binary>1000001</binary>
+  </object>
+  <object>
+    <elem type="integer">73</elem>
+    <binary>1001001</binary>
+  </object>
+  <object>
+    <elem type="integer">85</elem>
+    <binary>1010101</binary>
+  </object>
+  <object>
+    <elem type="integer">93</elem>
+    <binary>1011101</binary>
+  </object>
+  <object>
+    <elem type="integer">99</elem>
+    <binary>1100011</binary>
+  </object>
+</objects>
