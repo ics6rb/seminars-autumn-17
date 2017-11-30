@@ -1,0 +1,13 @@
+<%= render 'partials/flash' %>
+
+<%= form_tag url_for(controller: :session, action: :create), method: 'post' do %>
+
+    <%= label_tag 'email' %>
+    <%= text_field_tag :email %>
+
+    <%= label_tag 'password' %>
+    <%= password_field_tag 'password' %>
+
+    <%= submit_tag 'Логин' %>
+
+<% end %>

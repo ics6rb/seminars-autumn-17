@@ -1,0 +1,19 @@
+<div class="jumbotron">
+
+  <h1 class="display-3">У тебя талант, братан</h1>
+
+  <p class="lead">Спроси, какой.</p>
+
+  <hr class="my-4">
+
+  <p class="lead">
+
+    <%= form_tag url_for(controller: 'lr8_logic', action: 'output'), method: 'get' do %>
+
+        <%= submit_tag 'Какой?', class: 'btn btn-info иет-дп' %>
+
+    <% end %>
+
+  </p>
+
+</div>
