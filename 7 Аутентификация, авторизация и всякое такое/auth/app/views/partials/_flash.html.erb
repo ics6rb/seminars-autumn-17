@@ -2,13 +2,17 @@
 
     <div class="row">
 
-      <div class="alert alert-<%= message_type %> alert-dismissible fade show" role="alert">
+      <div class="col">
 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <div class="alert alert-<%= message_type %> alert-dismissible fade show" role="alert">
 
-        <%= message.html_safe %>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <%= message.html_safe %>
+
+        </div>
 
       </div>
 
